@@ -1,0 +1,115 @@
+header {
+    h1 {
+        text-shadow: #474747 3px 5px 2px;
+        animation: myAnim 2s ease 0s 1 normal forwards;
+
+        @keyframes myAnim {
+            0%,
+            50%,
+            100% {
+                opacity: 1;
+            }
+        
+            25%,
+            75% {
+                opacity: 0;
+            }
+        }
+    }
+}
+#cuerpouno {
+    h1 {
+    }
+    article {
+        box-shadow: 10px 10px 5px rgb(95, 206, 123);
+        h2{
+        } 
+        img {
+            animation: myAnim 2s ease 0s infinite normal forwards;
+            @keyframes myAnim {
+                0%,
+                100% {
+                    transform: translateX(0);
+                }
+            
+                10%,
+                30%,
+                50%,
+                70% {
+                    transform: translateX(-10px);
+                }
+            
+                20%,
+                40%,
+                60% {
+                    transform: translateX(10px);
+                }
+            
+                80% {
+                    transform: translateX(8px);
+                }
+            
+                90% {
+                    transform: translateX(-8px);
+                }
+            }
+        }
+        p{
+        }
+    }
+}
+.demotext {
+    color: #584b4b;
+    background: #996D6D;
+    text-shadow: #474747 3px 5px 2px;
+    color: #FFFFFF;
+    background: #996D6D;
+    
+    }
+#cuerpodos {
+    h1 {
+    }
+    article {
+        box-shadow: 10px 10px 5px rgb(230, 81, 81);
+        h2{
+        } 
+        img {
+            animation: myAnim 2s ease 0s infinite normal forwards;
+            @keyframes myAnim {
+                0%,
+                100% {
+                    transform: translateX(0);
+                }
+            
+                10%,
+                30%,
+                50%,
+                70% {
+                    transform: translateX(-10px);
+                }
+            
+                20%,
+                40%,
+                60% {
+                    transform: translateX(10px);
+                }
+            
+                80% {
+                    transform: translateX(8px);
+                }
+            
+                90% {
+                    transform: translateX(-8px);
+                }
+            }
+        }
+        p{
+        }
+    }
+}
+aside {
+    display: block;
+    color: rgb(95, 47, 47);
+    font-size: 20px;
+
+}

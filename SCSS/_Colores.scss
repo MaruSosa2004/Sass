@@ -1,11 +1,11 @@
-$azul:   #97A2B4;
-$marron: #B4A997;
+$azul:   #dd8598;
+$marron: #d4f5c0;
 $Blanco: #FFFFFF;
-$rosa:   #FAE4C1;
+$rosa:   #e597c2;
 
 header {
     background-color: $azul;
-    color: rgb(13, 112, 112);
+    color: rgb(255, 255, 255);
 }
 nav {
     background-color: $rosa;
@@ -36,8 +36,8 @@ nav {
     }
 }
 aside {
-    background-color: $Blanco;
+    background-color: rgb(132, 131, 175);
 }
 footer {
-    background-color: black;
+    background-color: rgb(255, 177, 177);
 }
