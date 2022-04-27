@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #97A2B4;
+  color: rgb(13, 112, 112);
+}
+
+nav {
+  background-color: #FAE4C1;
+}
+nav a {
+  background-color: #B4A997;
+}
+nav a:hover {
+  color: black;
+  background-color: #97A2B4;
+}
+
+#cuerpouno {
+  background-color: #B4A997;
+}
+#cuerpouno article {
+  background-color: #FFFFFF;
+}
+#cuerpouno article h2 {
+  color: black;
+}
+
+#cuerpodos {
+  background-color: #97A2B4;
+}
+#cuerpodos article {
+  background-color: #FFFFFF;
+}
+#cuerpodos article h2 {
+  color: black;
+}
+
+aside {
+  background-color: #FFFFFF;
+}
+
+footer {
+  background-color: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "cabeza cabeza cabeza" "menu arriba lateral" "menu abajo lateral" "pie pie pie";
+  grid-template-columns: 20% auto 15%;
+  grid-template-rows: 1fr 3fr 3fr 1fr;
+}
+.grid header {
+  grid-area: cabeza;
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.grid footer {
+  grid-area: pie;
+  height: 50px;
+}
+.grid #cuerpouno {
+  grid-area: arriba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid #cuerpodos {
+  grid-area: abajo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid nav {
+  grid-area: menu;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.grid aside {
+  grid-area: lateral;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  padding: 100px;
+  font-size: 100px;
+}
+
+nav {
+  text-align: center;
+  padding: 30px;
+}
+nav a {
+  padding: 10px 10px 10px 10px;
+}
+
+#cuerpouno {
+  height: 400px;
+  margin-bottom: 0;
+}
+#cuerpouno article {
+  margin: 50px;
+  border-radius: 10px;
+  height: 200px;
+}
+#cuerpouno article h2 {
+  font-size: 10px;
+  text-align: center;
+}
+#cuerpouno article img {
+  margin: 10px;
+}
+#cuerpouno article p {
+  margin: 10px;
+}
+
+#cuerpodos {
+  height: 400px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#cuerpodos article {
+  margin: 50px;
+  border-radius: 10px;
+  height: 200px;
+}
+#cuerpodos article h2 {
+  font-size: 10px;
+  text-align: center;
+}
+#cuerpodos article img {
+  margin: 10px;
+}
+#cuerpodos article p {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

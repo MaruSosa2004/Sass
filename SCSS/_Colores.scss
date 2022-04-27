@@ -1,0 +1,43 @@
+$azul:   #97A2B4;
+$marron: #B4A997;
+$Blanco: #FFFFFF;
+$rosa:   #FAE4C1;
+
+header {
+    background-color: $azul;
+    color: rgb(13, 112, 112);
+}
+nav {
+    background-color: $rosa;
+    a{
+        background-color: $marron;
+    &:hover {
+        color: black;
+        background-color: $azul;
+        }
+    }
+}
+#cuerpouno {
+    background-color: $marron;
+    article {
+        background-color: $Blanco;
+        h2{
+            color: black;
+        }
+    }
+}
+#cuerpodos {
+    background-color: $azul;
+    article {
+        background-color: $Blanco;
+        h2{
+            color: black;
+        }
+    }
+}
+aside {
+    background-color: $Blanco;
+}
+footer {
+    background-color: black;
+}
